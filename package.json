@@ -1,0 +1,25 @@
+{
+  "name": "solidity-helpers",
+  "version": "1.0.0",
+  "description": "A helper library for solidity string, uint and address types",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bytesfield/solidity-helpers.git"
+  },
+  "keywords": [
+    "solidity"
+  ],
+  "author": "Abraham Udele <hello@abrahamudele.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bytesfield/solidity-helpers/issues"
+  },
+  "homepage": "https://github.com/willitscale/solidity-util#readme"
+}
