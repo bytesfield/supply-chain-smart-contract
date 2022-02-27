@@ -302,4 +302,15 @@ contract SupplyChain {
         }
         return false;
     }
+
+    function compare(string calldata _base, string calldata _value)
+        public
+        pure
+        returns (bool)
+    {
+        //coverts strings to bytes 32 and pass it to the keccak256 hash algorithm and compare the results
+        return
+            keccak256(abi.encodePacked(_base)) ==
+            keccak256(abi.encodePacked(_value));
+    }
 }
